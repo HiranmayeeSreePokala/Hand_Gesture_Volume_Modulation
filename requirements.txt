@@ -1,0 +1,5 @@
+1) pycharm community
+2) webcam based laptop/Desktop
+3) opencv module
+4) pyautoGUI module
+5) mediapipe module
