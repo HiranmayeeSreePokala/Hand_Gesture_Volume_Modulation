@@ -1,10 +1,35 @@
-# Hand_Gesture_Volume_Modulation
 
-This repository hosts the code for a convenient and user-friendly application that enables volume adjustment through hand gestures. Designed with simplicity in mind, this application is especially useful in scenarios where hands might be occupied. The gesture recognition system allows users to effortlessly control volume levels using intuitive hand movements.
 
-# Features
-Hand Gesture Recognition: The application employs computer vision techniques to recognize specific hand gestures for volume control.
+---
 
-User-Friendly Design: The interface is kept simple and straightforward, catering to quick volume adjustments with minimal effort.
+# Volume Control Using Hand Gestures
 
-Convenience for Small Purposes: Ideal for situations where hands are dirty or occupied, providing a hands-free alternative for volume control.
+## Introduction
+
+Control your device's volume effortlessly using hand gestures! This project utilizes your index and thumb fingers to adjust the volume, eliminating the need for physical buttons that might fail over time.
+
+## Requirements
+
+- **OpenCV**: For camera access.
+- **Mediapipe**: For hand tracking.
+- **pyAutoGUI**: For keyboard controls.
+
+## Procedure
+
+1. **Copy `main.py`**: Download or copy the `main.py` script to your local machine.
+2. **Adjust Distance**: Modify the distance threshold between the index and thumb fingers in the script to fit your needs.
+3. **Run the Code**: Execute the script.
+4. **Grant Camera Access**: Allow access to your camera when prompted.
+5. **Test the Gesture**: Move your index and thumb fingers to see the volume control in action.
+
+## Working
+
+The script measures the distance between the index and thumb fingers. Based on this distance, it increases or decreases the device's volume. The script is designed to detect and respond to movements of a single hand.
+
+## Uses
+
+- Hands-free volume control
+- Convenient when physical buttons are inaccessible or malfunctioning
+- Innovative solution for touchless device interaction
+
+---
