@@ -10,9 +10,16 @@ Control your device's volume effortlessly using hand gestures! This project util
 
 ## Requirements
 
-- **OpenCV**: For camera access.
+<!-- - **OpenCV**: For camera access.
 - **Mediapipe**: For hand tracking.
-- **pyAutoGUI**: For keyboard controls.
+- **pyAutoGUI**: For keyboard controls. -->
+
+<div align="left">
+  <img alt="OpenCV" src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img alt="Pycharm" src="https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green"/>
+  <img alt="MediaPipe" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> 
+  <img alt="pyAutoGUI" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+</div>
 
 ## Procedure
 
